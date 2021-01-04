@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../TecSaltilloAPI"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TecSaltilloFrontend"
+	}
+}

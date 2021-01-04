@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tec Saltillo - Login</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/material-design-lite/material.min.css"
+    />
+    <script src="../../node_modules/material-design-lite/material.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+
+    <!-- Optional Theme Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+  </head>
+  <body>
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Tec Saltillo</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="../index.html">Inicio</a>
+          <a class="mdl-navigation__link" href="./login.html">Iniciar Sesion</a>
+          <a class="mdl-navigation__link" href="./register.html">Registrarse</a>
+          <a class="mdl-navigation__link" href="./alumnList.html"
+            >Lista de Alumnos</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="main__login">
+          <h3>Iniciar Sesion</h3>
+        <form class="main__login-form" action="#">
+          <div
+            class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+          >
+            <input class="mdl-textfield__input" type="email" id="sample3" required/>
+            <label class="mdl-textfield__label" for="sample3">Email</label>
+          </div>
+        <!-- Numeric Textfield with Floating Label -->
+          <div
+            class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+          >
+            <input
+              class="mdl-textfield__input"
+              type="password"
+              id="sample4"
+              required
+            />
+            <label class="mdl-textfield__label" for="sample4">Password</label>
+            <!-- <span class="mdl-textfield__error">No has introducido nada</span> -->
+          </div>
+          <button type="submit" class="mdl-button mdl-js-button mdl-button--raised">
+            Entrar
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

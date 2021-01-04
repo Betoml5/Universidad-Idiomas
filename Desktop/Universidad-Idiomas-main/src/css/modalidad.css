@@ -1,0 +1,328 @@
+:root{
+    --orange: #006eff;
+    --hover: #707070;
+    --hovermoda: #1b0cf1;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:ital,wght@1,900&display=swap");
+
+/* .container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+} */
+/* barra de navegacion*/
+
+#logo{
+    margin-top: 10px;
+}
+
+#logo a{
+    font-family: 'Lato';
+    color: #707070;
+    font-size: 250%;
+    padding: 30px;
+    font-weight: 600;
+}
+
+#logo .span{
+    font-family: 'Karla';
+    font-weight: 400;
+    color: #707070;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo{
+    margin-left: 10px;
+
+}
+.menu li{
+    margin-right: 50px;
+    font-size: 300%;
+
+}
+
+.menu li>a{
+    color: #fff;
+    padding: 2px 15px;
+    background:var(--orange);
+    border-radius: 70px;
+    text-align: center;
+}
+.menu li a.here{
+    background: var(--hovermoda);
+}
+
+.menu li a:hover{
+    background: var(--hover);
+}
+/* apartado de imagenes modalidad */
+.imagenes{
+    display: flex;
+}
+
+.ll{
+
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.imagenes{
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.ll .ccon{
+    background-image:url(online.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 720px;
+    /* position: absolute; */
+}
+
+.ll .cc{
+    background: gray;
+    width: 720px;
+    height: 500px;
+    opacity: .3;
+}
+
+.l2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.num2{
+    background-image: url(presencial.jpg);
+    width: 720px;
+    height: 500px;
+    background-size:cover ;
+}
+
+.l2 .num3{
+    background: var(--hovermoda) ;
+    width: 720px;
+    height: 500px;
+    opacity: .3;
+}
+
+.online{
+    border-radius: 50px;
+    border:none;
+    background:var(--orange);
+    color: #fff;
+    
+}
+
+.online:hover{
+    background: var(--hover);
+    color:#fff;
+}
+
+span{
+    margin-top: 15px;
+}
+
+span > a{
+    padding:10px;
+}
+
+.onlinee{
+    position: absolute;
+    width: 720px;
+}
+
+.onlinee> h3{
+    margin-bottom: 20px;
+}
+
+.online__object{
+    font-size: 30px;
+}
+
+/* apartado final */
+
+
+
+.teachers{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+
+.svg>img{
+    width: 50vw;
+}
+
+.masters{
+    display: flex;
+    flex-direction: column;
+    height: 300.483px;
+    width: 50vw;
+    text-align: center;
+}
+
+.masters h2{
+    font-family: 'Commissioner', sans-serif;
+    color: var(--orange);
+}
+
+.masters p{
+    margin-top: 50px;
+    font-size: 250%;
+    font-family: 'Chilanka', cursive;
+}
+
+.footer__info-net img{
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles footer */
+.footer {
+    background: var(--white2);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.footer__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 50px;
+}
+
+
+.footer__info-net {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.footer__info-net img {
+    width: 100px;
+}
+
+.footer__info-net a .fab {
+    font-size: 50px;
+    color: #909497;
+    margin-left: 15px;
+}
+
+.footer__info-net a > .fab:hover {
+    color:var(--orange);
+    transition: all 0.5s;
+}
+
+/* .footer__info-author p {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+} */
+
+/* .footer__info-author h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--black2);
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+.footer__info-politics {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: medium;
+}
+
+.footer__info-politics > a {
+    padding-bottom: 5px;
+    color: #707070;
+}
+
+.footer__info-politics > a:hover {
+    text-decoration: underline;
+}
+
+.footer__copy {
+    background: var(--orange);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__copy p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer__info-net img{
+    border-radius: 50px;
+}
+
+.Email{
+    font-size: medium;
+
+}
+
+.Email a{
+    color: #707070;
+}
+
+.Email a:hover{
+    text-decoration: underline;
+}
+
