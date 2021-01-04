@@ -9,10 +9,12 @@
 
 
 .main{
-    margin: auto;
-    width: 50%;
-    height: 50vh;
-    background-image: url(../assets/static/uni.jpg);
+    display: flex;
+
+    margin: 0 auto;
+    width: 80%;
+    /* height: 50vh; */
+    /* background-image: url(../assets/static/uni.jpg); */
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +23,50 @@
     animation: pulseMain 3s infinite;
 }
 
-@keyframes pulseMain{
+
+.main .main__slogan{
+    width: 60%;
+}
+
+.main .main__slogan h2{
+    /* font-family: 'Roboto'; */
+    color: #9C5ADE;
+}
+
+.main__slogan-media-item{
+    display: flex;
+    align-items: center;
+}
+
+.main__slogan-media-item p {
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.main__slogan-media-item p:hover {
+    color: #9C5ADE;
+}
+
+.main .main__slogan-social img{
+    margin-bottom: 12px;
+    margin-right: 12px;
+    width: 70px;
+}
+
+.main__image{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.main__image img{
+    width: 760px;
+}
+
+
+/* @keyframes pulseMain{
     from{
         transform: none;
     }
@@ -35,4 +80,4 @@
         transform: none;
     }
 
-}
+} */

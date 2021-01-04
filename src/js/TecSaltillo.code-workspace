@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\TecSaltilloAPI"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TecSaltilloFrontend"
+	}
+}
